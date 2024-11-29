@@ -1,0 +1,21 @@
+{
+  "name": "aula-api",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de entidades escolares",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
+}
